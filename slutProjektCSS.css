@@ -163,8 +163,9 @@ h1 {
         background-color: black;
 	color: white;
 	text-decoration: none;
-	padding: 0;
+	padding-top: 0;
 	border: none;
+	font-size: 90%;
 }
 
 
