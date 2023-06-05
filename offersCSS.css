@@ -282,9 +282,8 @@ h2{
 	 }
    #cars img {
 	   
-	   height: 290px;
-           width: 450px;
-           min-width: 50%;
+	   max-width: 100%;
+	   height: auto;
   }
   
   
