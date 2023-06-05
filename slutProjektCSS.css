@@ -31,13 +31,7 @@ body {
 	
 	
 }
-.links button{
-        background-color: black;
-	color: white;
-	text-decoration: none;
-	
-	border: none;
-}
+
 .main > div{
 	
 	
@@ -165,13 +159,15 @@ h1 {
 	font-size: 90%;
 		
 }
-
-.links img {
-	
-	justify-conent: flex-start;
-	
-	
+.links button{
+        background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 0;
+	border: none;
 }
+
+
 .hoverUnderline {
   display: inline-block;
   position: relative;
