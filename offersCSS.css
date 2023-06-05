@@ -277,7 +277,7 @@ h2{
 	 #cars p {
 	      
 	      font-size: 60%;
-	        width: 100%;
+	       max-width: 100%;
 	 
 	 }
    #cars img {
