@@ -279,6 +279,7 @@ h2{
   .model {
 	 
 	 max-width: 80%
+         width: 400px;
 	 text-align: center;
 	 
 	 
@@ -287,6 +288,7 @@ h2{
 	      
 		 
              max-width: 80%;
+             width: 400px;
              text-align: center;
 	 
 	 }
