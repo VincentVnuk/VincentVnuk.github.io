@@ -264,6 +264,26 @@ h2{
 	 
 	 
   }
+	
+ @media screen and (max-width: 390px) {
+  .model {
+	 text-align: center;
+	  
+	 
+	 
+	 
+  }
+	 #cars p {
+	     text-align: center;
+	 
+	 
+	 }
+  
+  
+  
+  
+  
+  }
   
   
   
