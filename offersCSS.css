@@ -145,7 +145,7 @@ h2{
 #cars p {
 	
 	width: 500px;
-	
+	max-width: 100%;
 	
 }
 #cars img {
@@ -175,7 +175,7 @@ max-width: 100%;
 .model {
 	
 	font-weight: 999;
-	
+	max-width: 100%;
 }
 
 
@@ -284,7 +284,7 @@ max-width: 100%;
 	 #cars p {
 	      
 	      font-size: 60%;
-	       max-width: 100%;
+	       width: 100%;
 	 
 	 }
  
