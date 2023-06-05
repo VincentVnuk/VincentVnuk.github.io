@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+* {
+	
+	box-sizing: border-box;
+	
+	
+}
+body {
+	
+	 
+	padding: 0;
+	margin: 0;
+	font-family: 'Heebo', sans-serif;
+	
+	
+	
+}
+
+
+
+
+
+
+.links {
+	
+	
+	position: fixed;
+	top:0;
+	color: white;
+	display: flex;
+    background: #000000;
+	width: 100%;
+	height: 85px;
+	justify-content: center;
+	padding-top: 26px;
+	margin-top: 0px;	
+	padding-right: 13px;
+	
+	
+	
+	  
+}
+.links a {
+	
+	margin: 35px;
+	padding-right: 5px;
+	text-decoration:none;
+    color: white;
+		
+}
+.hoverUnderline {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.hoverUnderline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hoverUnderline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.container{
+	
+	display: flex;
+    
+    justify-content: left;
+	
+}
+img {
+  max-width: 100%;
+  max-height:100%;
+  padding: 0;
+}
+
+.text {
+  padding-top: 100px;
+  padding-left: 40px;
+  width: 20%;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px; 
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: 50px;
+	
+	
+}
+
+#btn {
+	
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 15px 32px;
+	border: none;
+	
+}
+#cars h2 {
+	
+	text-align: center;
+	font-weight: 100;
+	
+	
+}
+#cars p {
+	
+	width: 500px;
+	
+	
+}
+
+.offers {
+	
+	display:flex;
+	margin-left: 50px;
+	margin-right: 50px;
+	flex-wrap: wrap;
+	
+}
+
+.offers > div
+{
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: 32px;
+	
+	
+}
+.model {
+	
+	font-weight: 999;
+	
+}
+
+
+@media screen and (max-width: 620px) {
+  .links{
+     flex-direction: column;
+	 background-color: black;
+	 height: 400px;
+	  margin: auto;
+	 padding: auto;
+	 align-items: center;
+	 
+	 
+	 
+	 
+  }
+  .links a{
+     margin-top: 20px;
+	 
+	 
+	 
+	 
+  }
+  
+  
+  
+  }
+  @media screen and (max-width: 1227px) {
+  .offers {
+	 justify-content: center;
+	 
+	 
+	 
+  }
+  
+  
+  
+  
+  
+  }
+
+  
+  
+  
+  }
+ @media screen and (max-width: 800px) {
+  .links{
+     font-size: 80%;
+	 height: 65px;
+	 
+  }
+  
+  
+  
+  }
+  
+  
+    
+    @media screen and (max-width: 650px) {
+  .container{
+     flex-wrap: wrap;
+	flex-direction: row;
+	
+	
+	 
+  }
+  
+  .text {
+	
+	width: 50%;
+	justify-content: center;
+	
+}
+
+@media screen and (max-width: 620px) {
+  .links{
+     flex-direction: column;
+	 background-color: black;
+	 height: 200px;
+	  margin: auto;
+	 padding: auto;
+	 align-items: center;
+	 
+	 
+	 
+	 
+  }
+  .links a{
+     margin-top: 20px;
+	 
+	 
+	 
+	 
+  }
+  
+  
+  
+  }
+  
+  
+
+
+
+
+
+
