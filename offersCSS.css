@@ -151,8 +151,8 @@ h2{
 #cars img {
    
    max-width: 100%;
- width: 50%;
-  height: 310px;
+ 
+  height: auto;
 
 }
 
@@ -275,7 +275,23 @@ h2{
 	
 
   
+    @media screen and (max-width: 550px) {
+  .model {
+	 
+	 max-width: 100%
+	 
+	 
+	 
+  }
+	 #cars p {
+	      
+		 
+             max-width: 100%;
+	 
+	 }
+ 
   
+  }  
   
   
 
