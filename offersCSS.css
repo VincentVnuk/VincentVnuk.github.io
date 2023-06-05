@@ -275,16 +275,16 @@ max-width: 100%;
  @media screen and (max-width: 550px) {
   .model {
 	 
-	 font-size: 60%;
-	  width: 100%;
+	 font-size: 75%;
+	  width: 90%;
 	 
 	 
 	 
   }
 	 #cars p {
 	      
-	      font-size: 60%;
-	       width: 100%;
+	      font-size: 75%;
+	       width: 90%;
 	 
 	 }
  
