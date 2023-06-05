@@ -267,14 +267,14 @@ h2{
 	
  @media screen and (max-width: 500px) {
   .model {
-	 font-size: 50%;
+	 padding-left: 50px;
 	  
 	 
 	 
 	 
   }
 	 #cars p {
-	     font-size: 50%;
+	      padding-left: 50px;
 	 
 	 
 	 }
