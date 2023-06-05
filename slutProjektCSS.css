@@ -31,7 +31,13 @@ body {
 	
 	
 }
-
+.links button{
+        background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 15px 32px;
+	border: none;
+}
 .main > div{
 	
 	
@@ -40,8 +46,8 @@ body {
 	
 	
 	
-}
 
+}
 h1 {
 	
 	 color: white;
