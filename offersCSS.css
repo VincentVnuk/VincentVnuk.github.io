@@ -265,16 +265,16 @@ h2{
 	 
   }
 	
- @media screen and (max-width: 390px) {
+ @media screen and (max-width: 500px) {
   .model {
-	 text-align: center;
+	 font-size: 50%;
 	  
 	 
 	 
 	 
   }
 	 #cars p {
-	     text-align: center;
+	     font-size: 50%;
 	 
 	 
 	 }
