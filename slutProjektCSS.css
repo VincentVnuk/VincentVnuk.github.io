@@ -238,7 +238,10 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	
 }
-
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 
 
 
