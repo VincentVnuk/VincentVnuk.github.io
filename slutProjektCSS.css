@@ -24,7 +24,7 @@ body {
 	padding-top: 140px;
 	padding-left: 130px;
 	background-image: url("https://images.pexels.com/photos/6509107/pexels-photo-6509107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-	background-size: 1280px 730px;
+	background-size: 100% 730px;
     background-repeat: no-repeat;
 	height: 590px;
 	
