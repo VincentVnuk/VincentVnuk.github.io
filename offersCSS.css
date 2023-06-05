@@ -265,16 +265,18 @@ h2{
 	 
   }
 	
- @media screen and (max-width: 500px) {
+ @media screen and (max-width: 550px) {
   .model {
-	 padding-left: 50px;
+	 width: 100%;
+	 font-size: 50%;
 	  
 	 
 	 
 	 
   }
 	 #cars p {
-	      padding-left: 50px;
+	      width: 100%;
+	      font-size: 50%;
 	 
 	 
 	 }
